@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    margin: 85px 180px;
+    justify-content: space-between;
+}
+
+.child{
+    width: 240px;
+    height: 240px;
+    background-color: #995DB5;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    gap: 8px;
+}
+
+.childsecond{
+    width: 240px;
+    height: 240px;
+    background-color: #995DB5;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    gap: 8px;
+}
+
+.childlast{
+    width: 240px;
+    height: 240px;
+    background-color: #995DB5;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 6px;
+    display: flex;
+    gap: 8px;
+}
+
+.child:first-child{
+    justify-content: flex-start;
+}
+.child:nth-child(2){
+    flex-direction: column;
+}
+.child:nth-child(3){
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.child:last-child{
+    justify-content: space-between;
+}
+.childsecond:nth-child(2){
+    justify-content: flex-end;
+}
+
+.childsecond:nth-child(3){
+    justify-content: center;
+}
+
+.childsecond:last-child{
+    justify-content: space-around;
+}
+
+.childlast:nth-child(2){
+    align-items: flex-end;
+}
+
+.childlast:nth-child(3){
+    align-items: center;
+}
+
+.childlast:last-child{
+    justify-content: space-evenly;
+}
+
+.child_2{
+    width: 50px;
+    height: 50px;
+    background-color: #F7941F;
+    border: 1px solid black;
+    border-radius: 8px;
+}
